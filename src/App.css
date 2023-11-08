@@ -1,38 +1,130 @@
 .App {
-  text-align: center;
+    position: relative;
+    width: 1920px;
+    height: 2160px;
+    background: #FFFFFF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Main {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1920px;
+    height: 198px;
+    left: -1px;
+    background: #0D4633;
+    border: 2px solid #0D4633;
+    }
+
+.Main_logo {
+    position: absolute;
+    margin-top: 39px;
+    margin-left: 746px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Main_text1 {
+    position: absolute;
+    width: 173px;
+    height: 56px;
+    top: 132px;
+    left: 332px;
+    font-family: 'Cairo';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Main_text2 {
+    position: absolute;
+    width: 117px;
+    height: 56px;
+    top: 133px;
+    left: 890px;
+    font-family: 'Cairo';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
-.App-link {
-  color: #61dafb;
+.Main_text3 {
+    position: absolute;
+    width: 83pxpx;
+    height: 56px;
+    top: 132px;
+    left: 1454px;
+    font-family: 'Cairo';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.SubFirst_title {
+    position: absolute;
+    width: 138px;
+    height: 43px;
+    top: 401px;
+    left: 311px;
+    font-family: 'Bree Serif';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #333333;
+}
+
+.Sub1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 303px;
+    height: 410px;
+    top: 459px;
+    left: 311px;
+    background: #FFFFFF;
+    border: 2px solid #0D4633;
+    border-radius: 10px;
+}
+
+.Sub1_img1 {
+    position: absolute;
+    width: 252px;
+    height: 252px;
+    top: 474px;
+    left: 335px;
+}
+
+.Sub1_info {
+    box-sizing: border-box;
+    position: absolute;
+    width: 303px;
+    height: 143px;
+    top: 726px;
+    left: 311px;
+    background: #0D4633;
+    border: 2px solid #0D4633;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.Sub1_text {
+    position: absolute;
+    width: 182px;
+    height: 33px;
+    left: 324px;
+    top: 741px;
+    font-family: 'Bree Serif';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32.59px;
+    color: #FFFFFF;
+}
+
+.Sub1_img2 {
+    position: absolute;
+    width: 172px;
+    height: 24px;
+    top: 831px;
+    left: 424px;
 }
